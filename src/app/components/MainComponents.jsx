@@ -6,13 +6,13 @@ export default function MainComponents() {
       <div className="comments">
         <div className="comment">
           <div className="upvote-downvote">
-            <img
-              src="/images/icon-plus.svg"
-              alt="Upvote"
-              className="upvote"
-            />
+            <img src="/images/icon-plus.svg" alt="Upvote" className="upvote" />
             <p className="value-upvotedownvote">12</p>
-            <img src="/images/icon-minus.svg" alt="Downvote" className="downvote" />
+            <img
+              src="/images/icon-minus.svg"
+              alt="Downvote"
+              className="downvote"
+            />
           </div>
           <div className="informations-content">
             <div className="informations">
@@ -42,15 +42,15 @@ export default function MainComponents() {
         <div className="my-icon">
           <img src="/images/avatars/image-juliusomo.png" alt="Me" />
         </div>
-        <div className="input-comment">
+        <div className="input-commentContainer">
           <textarea
-            id="input_comment"
+            className="input-comment"
             rows="4"
-            placeholder="Add a comment"
+            placeholder="Add a comment..."
           ></textarea>
         </div>
         <div className="button-send">
-          <button className="button-default">Send</button>
+          <button className="btn-default">Send</button>
         </div>
       </div>
     </main>
