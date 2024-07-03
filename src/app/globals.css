@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
+/* @import url(components/styles/styleMain.css); */
 :root {
   --blue-one: #5457b6;
   --red-soft: #ed6468;
   --red-pale: #ffb8bb;
   --blue-two: #c3c4ef;
-
+  
   --blue-three: #324152;
   --blue-four: #67727e;
 
@@ -22,7 +22,6 @@
 
 body {
   font-family: "Rubik", sans-serif;
-  font-size: 62.5%;
   font-weight: 400;
   min-height: 100vh;
   min-width: 100%;

@@ -1,4 +1,4 @@
-import './styles/styleMain.css'
+import "./styles/styleMain.css";
 
 export default function MainComponents() {
   return (
@@ -6,16 +6,20 @@ export default function MainComponents() {
       <div className="comments">
         <div className="comment">
           <div className="upvote-downvote">
-            <img src="/images/icon-plus.svg" alt="Upvote" id="upvote" />
+            <img
+              src="/images/icon-plus.svg"
+              alt="Upvote"
+              className="upvote"
+            />
             <p className="value-upvotedownvote">12</p>
-            <img src="/images/icon-minus.svg" alt="Downvote" id="downvote" />
+            <img src="/images/icon-minus.svg" alt="Downvote" className="downvote" />
           </div>
           <div className="informations-content">
             <div className="informations">
               <img
                 src="/images/avatars/image-amyrobson.png"
                 alt="Icon"
-                id="icon"
+                className="icon"
               />
               <p className="name">amyrobson</p>
               <p className="time">1 month ago</p>
@@ -30,18 +34,23 @@ export default function MainComponents() {
           </div>
           <div className="reply">
             <img src="/images/icon-reply.svg" alt="Reply" />
+            <p>Reply</p>
           </div>
         </div>
       </div>
       <div className="add-comment">
         <div className="my-icon">
-            <img src="/images/avatars/image-juliusomo.png" alt="Me" />
+          <img src="/images/avatars/image-juliusomo.png" alt="Me" />
         </div>
         <div className="input-comment">
-            <textarea id="input_comment" rows="4" placeholder="Add a comment"></textarea>
+          <textarea
+            id="input_comment"
+            rows="4"
+            placeholder="Add a comment"
+          ></textarea>
         </div>
         <div className="button-send">
-            <button className="button-default">Send</button>
+          <button className="button-default">Send</button>
         </div>
       </div>
     </main>
